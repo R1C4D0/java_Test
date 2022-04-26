@@ -16,7 +16,7 @@ public class aaa {
         File[] files = dir.listFiles();
         if (files != null)
         {
-            Boolean bl;
+            Boolean bl;//
             for (File file : files)
             {
                 bl = isLegalMagicSquare(file.getAbsolutePath());
