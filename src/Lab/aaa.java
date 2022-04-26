@@ -14,7 +14,6 @@ public class aaa {
     public static void main(String[] args) throws IOException {
         File dir = new File("C:\\Users\\Ricardo\\Desktop\\P1");
         File[] files = dir.listFiles();
-
         if (files != null)
         {
             Boolean bl;
